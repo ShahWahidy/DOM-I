@@ -39,4 +39,25 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
+// const navItemOne = document.querySelector('.nav-item-1')
+// const navItemTwo = document.querySelector('.nav-item-2')
+// const navItemThree = document.querySelector('.nav-item-3')
+// const navItemFour = document.querySelector('.nav-item-4')
+// const navItemFive = document.querySelector('.nav-item-5')
+// const navItemSix = document.querySelector('.nav-item-6')
+
+// navItemOne.textContent = siteContent['Services']['nav-item-1']
+
+const headerImg = document.querySelector('#logo-img');
+headerImg.src = siteContent.images["logo-img"]
+
+const hOneTitle = document.querySelector('.cta-text h1');
+hOneTitle.textContent = siteContent.cta.h1;
+
+const getStartedButton = document.querySelector('.cta-text Button');
+getStartedButton.textContent = siteContent.cta.button;
+
+const codeSnip = document.querySelector('#cta-img');
+codeSnip.src = siteContent.images["cta-img"]
+
 console.log('project wired!')
